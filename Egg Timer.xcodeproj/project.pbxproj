@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDA2A9A526C1B59800942932 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA2A9A426C1B59800942932 /* alarm_sound.mp3 */; };
 		EDE0AA7E26BDB6CB0054ADAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0AA7D26BDB6CB0054ADAA /* AppDelegate.swift */; };
 		EDE0AA8026BDB6CB0054ADAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0AA7F26BDB6CB0054ADAA /* SceneDelegate.swift */; };
 		EDE0AA8226BDB6CB0054ADAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0AA8126BDB6CB0054ADAA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDA2A9A426C1B59800942932 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		EDE0AA7A26BDB6CB0054ADAA /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE0AA7D26BDB6CB0054ADAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE0AA7F26BDB6CB0054ADAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				EDE0AA8326BDB6CB0054ADAA /* Main.storyboard */,
 				EDE0AA8626BDB6D10054ADAA /* Assets.xcassets */,
 				EDE0AA8826BDB6D10054ADAA /* LaunchScreen.storyboard */,
+				EDA2A9A426C1B59800942932 /* alarm_sound.mp3 */,
 				EDE0AA8B26BDB6D10054ADAA /* Info.plist */,
 			);
 			path = "Egg Timer";
@@ -126,6 +129,7 @@
 			files = (
 				EDE0AA8A26BDB6D10054ADAA /* LaunchScreen.storyboard in Resources */,
 				EDE0AA8726BDB6D10054ADAA /* Assets.xcassets in Resources */,
+				EDA2A9A526C1B59800942932 /* alarm_sound.mp3 in Resources */,
 				EDE0AA8526BDB6CB0054ADAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T3ZC977W3;
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T3ZC977W3;
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
